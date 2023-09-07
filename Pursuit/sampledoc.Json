@@ -1,0 +1,122 @@
+﻿{
+  "username": "Added again one more",
+  "password": "encryptedPwd",
+  "user_origin_code": "User orgin code whether AD or manual or bulk etc",
+  "license_key_4admin": "License Key",
+  "license-expiry_dt": "encrypted dt",
+  "loginid": "encryptedloginId",
+  "firstname": "First Name",
+  "lastname": "Last Name",
+  "email": "Somer.sault@ortusolis.com",
+  "phone": "1122334455",
+  "profile-pic": "profile pic base64 data",
+  "user_status": "user active, inactive (soft delete), pending approval, approved, rejected",
+  "organization": {
+    "Organizationname": "Ortusolis",
+    "OrgAddress": "Jayanagar",
+    "orgPhone": "9383838938",
+    "orgEmail": "org@mdoe.com"
+  },
+  "role": {
+    "Rolename": "Admin",
+    "roleAccessrules": [
+      {
+        "feature": "addUser",
+        "Access": true
+      },
+      {
+        "feature": "deleteUser",
+        "Access": false
+      },
+      {
+        "feature": "viewUsers",
+        "Access": true
+      },
+      {
+        "feature": "addRole",
+        "Access": false
+      }
+    ]
+  },
+  "userAccessrules": [
+    {
+      "feature": "addUser",
+      "Access": true
+    },
+    {
+      "feature": "deleteUser",
+      "Access": true
+    },
+    {
+      "feature": "viewUsers",
+      "Access": true
+    },
+    {
+      "feature": "addRole",
+      "Access": true
+    }
+  ],
+  "notification_settings": [
+    {
+      "notify_email": "true or false",
+      "notify_sms": "true or false"
+
+    }
+  ],
+  "notifications": [
+    {
+      "notification1": {
+        "notification_id": "notification_id",
+        "notified_by": "Notifying person or event",
+        "notification_text": "Notification Text",
+        "notification_date": "Notification date",
+        "notification_status": {
+          "notify_stat": "read/unread"
+        }
+      }
+    },
+    {
+      "notification2": {
+        "notification_id": "notification_id",
+        "notified_by": "Notifying person or event",
+        "notification_text": "Notification Text",
+        "notification_date": "Notification date",
+        "notification_status": {
+          "notify_stat": "read/unread"
+        }
+      }
+    }
+  ],
+  "host_connections": [
+    {
+      "connection1": {
+        "connection_url": "connection_url",
+        "connection_userid": "connection_uid_encrypted",
+        "connection_pwd": "connection_pwd_encrypted",
+        "connection_status": {
+          "connect_stat": "active/Inactive"
+        },
+        "connection_create_dt": "connection created date",
+        "last_connected_dt": "Last connection date-time"
+      }
+    },
+    {
+      "connection2": {
+        "connection_url": "connection_url",
+        "connection_userid": "connection_uid_encrypted",
+        "connection_pwd": "connection_pwd_encrypted",
+        "connection_status": {
+          "connect_stat": "active or Inactive"
+        },
+        "connection_create_dt": "connection created date",
+        "last_connected_dt": "Last connection date-time"
+      }
+    }
+  ],
+
+  "2FA_settings": "2fa using admin preference",
+  "user_created_date": "user creation date",
+  "user_modified_date": "user modification date",
+  "user_last_login": "user last loging timestamp",
+  "user_pwd_change_date": "user last password changed timestamp"
+}
